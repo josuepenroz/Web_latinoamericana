@@ -35,3 +35,83 @@ body {
 .inicio:active {
     color: red;
 }
+.menu a {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 5px;
+  background: #d0d0d0;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+
+.menu a.activo[href="inicio.html"] {
+    background: red;
+    color: white;
+}
+
+.menu a.activo[href="desarrollo.html"] {
+    background: blue;
+    color: white;
+}
+
+.menu a.activo[href="cierre.html"] {
+    background: green;
+    color: white;
+}
+
+.menu a.activo[href="biblio.html"] {
+    background: purple;
+    color: white;
+}
+.presentacion {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.presentacion h2 {
+    color: #227f7f;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.contenido {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;    
+}
+.texto {
+    
+    flex: 1; /* que el texto ocupe el espacio disponible */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  text-align: justify;
+}
+.img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+button#btnVerMas {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #2f5c6f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#btnVerMas:hover {
+    background-color: #1e3d50;
+}
+

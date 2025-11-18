@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.menu {
+    background-color: #227f7f;
+    padding: 10px 0;
+
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+.inicio {
+    color: blue;
+  text-decoration: none; 
+}
+.inicio:hover {
+     color: green;
+}
+.inicio:active {
+    color: red;
+}
+.menu a {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 5px;
+  background: #d0d0d0;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.menu a.activo[href="inicio.html"] {
+    background: red;
+    color: white;
+}
+
+.menu a.activo[href="desarrollo.html"] {
+    background: blue;
+    color: white;
+}
+
+.menu a.activo[href="cierre.html"] {
+    background: green;
+    color: white;
+}
+
+.menu a.activo[href="biblio.html"] {
+    background: rgb(103, 148, 116);
+    color: white;
+}
