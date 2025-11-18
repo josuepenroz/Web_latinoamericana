@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.menu-paginas {
+    background-color: darkcyan;
+    display: flex;
+    gap: 20px;
+    
+}
+.menu-paginas a {
+    font-style: none;
+   
+}
+.m {
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: var(--black);
+}
