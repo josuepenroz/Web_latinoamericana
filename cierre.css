@@ -63,3 +63,57 @@ body {
     background: purple;
     color: white;
 }
+        header {
+            background: linear-gradient(90deg, #2ecc71, #27ae60);
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        /* CONTENEDOR GENERAL */
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 60px 10%;
+            background: white;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+        }
+
+        /* Para invertir el orden */
+        .reverse {
+            flex-direction: row-reverse;
+        }
+
+        .text {
+            width: 50%;
+        }
+
+        .text h2 {
+            color: #27ae60;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .text p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .img-box {
+            width: 50%;
+        }
+
+        .img-box img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }

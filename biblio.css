@@ -63,3 +63,59 @@ body {
     background: rgb(103, 148, 116);
     color: white;
 }
+/* =======================
+   Sección Bibliografía
+======================= */
+
+.bibliografia {
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 25px 20px;
+    max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.bibliografia h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.referencias {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.referencia {
+    background-color: #f0f0f0;
+    padding: 15px 20px;
+    border-left: 5px solid #2e8b57;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.referencia p {
+    margin: 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Efecto hover */
+.referencia:hover {
+    background-color: #e6f2ec;
+    transform: translateX(5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .bibliografia {
+        padding: 20px 15px;
+    }
+
+    .referencia p {
+        font-size: 0.95rem;
+    }
+}

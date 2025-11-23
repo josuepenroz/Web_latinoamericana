@@ -62,5 +62,37 @@ body {
     background: purple;
     color: white;
 }
+  .container {
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
 
+        h1, h2 {
+            color: #1a4d7a;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .pregunta {
+            background: #e8f3ff;
+            padding: 15px;
+            border-left: 5px solid #1a4d7a;
+            margin: 25px 0;
+        }
+
+        .cita {
+            background: #fff7d6;
+            padding: 15px;
+            border-left: 5px solid #c7a200;
+            font-style: italic;
+            margin: 20px 0;
+        }
 
