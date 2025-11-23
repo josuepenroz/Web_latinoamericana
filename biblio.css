@@ -100,13 +100,13 @@ body {
     font-size: 1rem;
 }
 
-/* Efecto hover */
+
 .referencia:hover {
     background-color: #e6f2ec;
     transform: translateX(5px);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .bibliografia {
         padding: 20px 15px;

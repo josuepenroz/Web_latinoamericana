@@ -12,38 +12,46 @@ body {
     padding: 10px 0;
 
 }
+
 .menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 .menu ul li {
     display: inline-block;
     margin: 0 20px;
 }
+
 .menu ul li a:hover {
     text-decoration: underline;
 }
+
 .inicio {
     color: blue;
-  text-decoration: none; 
+    text-decoration: none;
 }
+
 .inicio:hover {
-     color: green;
+    color: green;
 }
+
 .inicio:active {
     color: red;
 }
+
 .menu a {
-  display: inline-block;
-  padding: 12px 20px;
-  margin: 5px;
-  background: #d0d0d0;
-  color: black;
-  border-radius: 8px;
-  text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 5px;
+    background: #d0d0d0;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
 }
+
 .menu a.activo[href="index.html"] {
     background: red;
     color: white;
@@ -63,57 +71,58 @@ body {
     background: purple;
     color: white;
 }
-        header {
-            background: linear-gradient(90deg, #2ecc71, #27ae60);
-            padding: 40px;
-            text-align: center;
-            color: white;
-        }
 
-        header h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
+header {
+    background: linear-gradient(90deg, #2ecc71, #27ae60);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
 
-  
-        .section {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 40px;
-            padding: 60px 10%;
-            background: white;
-            margin-bottom: 30px;
-            border-radius: 20px;
-            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-        }
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
 
-        /* Para invertir el orden */
-        .reverse {
-            flex-direction: row-reverse;
-        }
 
-        .text {
-            width: 50%;
-        }
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 10%;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
 
-        .text h2 {
-            color: #27ae60;
-            font-size: 2rem;
-            margin-bottom: 15px;
-        }
 
-        .text p {
-            font-size: 1.1rem;
-            line-height: 1.7;
-        }
+.reverse {
+    flex-direction: row-reverse;
+}
 
-        .img-box {
-            width: 50%;
-        }
+.text {
+    width: 50%;
+}
 
-        .img-box img {
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-        }
+.text h2 {
+    color: #27ae60;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.img-box {
+    width: 50%;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}

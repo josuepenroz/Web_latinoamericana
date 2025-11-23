@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    border: 0;font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -10,37 +11,44 @@ body {
     padding: 10px 0;
 
 }
+
 .menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 .menu ul li {
     display: inline-block;
     margin: 0 20px;
 }
+
 .menu ul li a:hover {
     text-decoration: underline;
 }
+
 .inicio {
     color: blue;
-  text-decoration: none; 
+    text-decoration: none;
 }
+
 .inicio:hover {
-     color: green;
+    color: green;
 }
+
 .inicio:active {
     color: red;
 }
+
 .menu a {
-  display: inline-block;
-  padding: 12px 20px;
-  margin: 5px;
-  background: #d0d0d0;
-  color: black;
-  border-radius: 8px;
-  text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 5px;
+    background: #d0d0d0;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
 }
 
 .menu a.activo[href="index.html"] {
@@ -62,37 +70,38 @@ body {
     background: purple;
     color: white;
 }
-  .container {
-            width: 80%;
-            max-width: 900px;
-            margin: auto;
-            background: #ffffff;
-            padding: 20px 40px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
 
-        h1, h2 {
-            color: #1a4d7a;
-        }
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
-        p {
-            margin-bottom: 15px;
-        }
+h1,
+h2 {
+    color: #1a4d7a;
+}
 
-        .pregunta {
-            background: #e8f3ff;
-            padding: 15px;
-            border-left: 5px solid #1a4d7a;
-            margin: 25px 0;
-        }
+p {
+    margin-bottom: 15px;
+}
 
-        .cita {
-            background: #fff7d6;
-            padding: 15px;
-            border-left: 5px solid #c7a200;
-            font-style: italic;
-            margin: 20px 0;
-        }
+.pregunta {
+    background: #e8f3ff;
+    padding: 15px;
+    border-left: 5px solid #1a4d7a;
+    margin: 25px 0;
+}
 
+.cita {
+    background: #fff7d6;
+    padding: 15px;
+    border-left: 5px solid #c7a200;
+    font-style: italic;
+    margin: 20px 0;
+}
