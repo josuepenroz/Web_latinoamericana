@@ -44,7 +44,7 @@ body {
   border-radius: 8px;
   text-decoration: none;
 }
-.menu a.activo[href="inicio.html"] {
+.menu a.activo[href="index.html"] {
     background: red;
     color: white;
 }
@@ -63,9 +63,6 @@ body {
     background: rgb(103, 148, 116);
     color: white;
 }
-/* =======================
-   Sección Bibliografía
-======================= */
 
 .bibliografia {
     background-color: #fff;
